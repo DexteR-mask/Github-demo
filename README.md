@@ -8,3 +8,6 @@ while(life==true){
 ```java
 System.out.println("Welcome My frist PR");
 ```
+```python
+print("Great You guys are Learning it ")
+```
