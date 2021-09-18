@@ -5,3 +5,6 @@ while(life==true){
     workeachday();
 }
 ```
+```java
+System.out.println("Welcome My frist PR");
+```
