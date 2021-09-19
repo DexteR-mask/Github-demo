@@ -1,0 +1,23 @@
+{
+  "name": "github-demo",
+  "version": "1.0.0",
+  "description": "```javascript\r while(life==true){\r     workeachday();\r }\r ```\r ```java\r System.out.println(\"Welcome My frist PR\");\r ```\r ```python\r print(\"Great You guys are Learning it \")\r ```\r ```html\r <h1>Till now we are doing let's learn more </h1>\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harkiratsm/Github-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harkiratsm/Github-demo/issues"
+  },
+  "homepage": "https://github.com/harkiratsm/Github-demo#readme",
+  "dependencies": {
+    "react-helmet": "^5.0.2"
+  }
+}
