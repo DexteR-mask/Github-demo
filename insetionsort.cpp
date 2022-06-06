@@ -24,7 +24,7 @@ int main()
     int temp;
     for (int i = 0; i < a - 1; i++)
     {
-        stack
+        
 
         for (int j = i; j >= 0; j--)
         {
