@@ -1,13 +1,32 @@
 #include <iostream>
-
+//import to_string
+#include <sstream>
 using namespace std;
-string input(int a)
+int input(int a)
 {
-    return a>90?"A":(a<90 && a>80?"B": a<80 && a>70?"C":a<70 && a>60?"D":"F");
+ 
+
+cin>>a;
+//a to string
+string s=to_string(a);
+// find length of s
+int l=s.length();
+//loop 0 to l-1
+int sum=0;
+for(int i=0;i<l;i++)
+{ 
+    sum=sum+s[i]-'0';
+  
+}
+//return sum
+return sum;
 }
 
 int main()
+
 {
+
+
     cout<<input( 65);
 
 }
